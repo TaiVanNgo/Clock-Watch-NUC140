@@ -68,23 +68,28 @@ This repository contains the implementation of a stopwatch system on the NUC140 
 1. **Clone the Repository**  
    Download or clone this repository to your local machine.
 
-2. **Open the Project in Keil MDK**  
+2. **Open the Project in Keil MDK**
+
    - Ensure you have **Keil µVision IDE** installed on your system.
    - Open the Keil IDE and navigate to **File > Open Project**.
    - Browse to the project directory and select the `.uvproj` file.
 
-3. **Build the Project**  
+3. **Build the Project**
+
    - In Keil, click on **Project > Build Target** or press the `F7` key to compile the project.
    - Check the output window for any compilation errors or warnings.
 
-4. **Load the Code onto the NUC140 Board**  
+4. **Load the Code onto the NUC140 Board**
+
    - Connect your NUC140 board to the computer using a USB cable.
    - Click on **Flash > Download** or press the `Ctrl+F8` key to program the board.
    - Wait for the flashing process to complete.
 
-5. **Run and Test the Application**  
+5. **Run and Test the Application**
+
    - After the code is flashed successfully, reset the board.
    - Interact with the application using the keys on the NUC140 board:
+
      - `K3`: Alarm Set Mode
      - `K1`: Start/Stop
      - `K9`: Record Lap/Reset
@@ -92,6 +97,7 @@ This repository contains the implementation of a stopwatch system on the NUC140 
      - `PB15`: Increment alarm or cycle through lap times.
 
    - Verify the functionality using the 7-segment display, LEDs, and buzzer.
+
 ## Demonstration
 
 The system has been tested to meet all functional requirements, including:
@@ -99,3 +105,7 @@ The system has been tested to meet all functional requirements, including:
 - Accurate timing and alarm triggers.
 - Smooth transitions between modes.
 - Correct handling of lap times and display output.
+
+🎥 **Watch the Demonstration Video**:
+
+[![Clock Watch NUC140](https://img.youtube.com/vi/IP3_0Url3qM/hqdefault.jpg)](https://www.youtube.com/watch?v=IP3_0Url3qM)
